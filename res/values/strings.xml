@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">final_project</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_course_details">CourseDetails</string>
+    <string name="add">ADD</string>
+    <string name="OPEN">open</string>
+    <string name="login_key">Administration</string>
+
+    <string-array name="course_Name">
+        <item>"Digital Logic Design"</item>
+        <item>"Digital Logic Design Lab"</item>
+        <item>"Object Oriented Programming Design"</item>
+        <item>"Engineering Computation and Simulation"</item>
+        <item>"Microprocessor and microcontroller Systems Design"</item>
+        <item>"Microprocessor and Microcontroller Systems Laboratory"</item>
+        <item>"Computer Hardware Design Using HDL language "</item>
+        <item>"Computer Hardware Design Laboratory"</item>
+        <item>"Object-Oriented Modeling and Applications"</item>
+        <item>" Data Structures and Algorithms"</item>
+        <item>"Computer Architecture"</item>
+        <item>"Computer Interfacing"</item>
+        <item>"Computer Interfacing Laboratory"</item>
+        <item>"Database Systems Design"</item>
+        <item>"Software Engineering"</item>
+        <item>"Software Engineering and Object Oriented Design Laboratory"</item>
+        <item>"Operating Systems Design"</item>
+        <item>"Operating Systems Programming"</item>
+        <item>"Computer Aided Design"</item>
+        <item>"Advanced Topics in Computer Architecture"</item>
+        <item>"Principles of Embedded  Systems"</item>
+        <item>"Advanced Microprocessor and Microcomputer Systems"</item>
+        <item>"Software Design Techniques"</item>
+        <item>"Software Requirements Engineering"</item>
+        <item>"Distributed Operating Systems "</item>
+        <item>"Computer Networks"</item>
+        <item>"Computer Network Laboratory"</item>
+        <item>"Advanced Computer Networks"</item>
+        <item>"Design of Network Protocols"</item>
+        <item>"Multimedia Systems and Technology"</item>
+        <item>"Robotics"</item>
+        <item>"Artificial Neural Network and Fuzzy Systems "</item>
+        <item>"Digital  Image Processing"</item>
+        <item>"Pattern Recognition and Computer Vision"</item>
+        <item>"Special Topics"</item>
+        <item>"Graduation Project"</item>
+    </string-array>
+    <string-array name="course_sympol">
+        <item> "CpE230"</item>
+        <item>"CpE 231"</item>
+        <item>"CpE 250"</item>
+        <item>"CpE 310B"</item>
+        <item>"CpE 344A"</item>
+        <item>"CpE 345A"</item>
+        <item>"CpE 346A"</item>
+        <item>"CpE 347A"</item>
+        <item>"CpE 350"</item>
+        <item>"CpE 354B"</item>
+        <item>"CpE 440A"</item>
+        <item>"CpE 444"</item>
+        <item>"CpE 445"</item>
+        <item>"CpE 450C"</item>
+        <item>"CpE 452"</item>
+        <item>"CpE 453"</item>
+        <item>"CpE 460"</item>
+        <item>"CpE 466A"</item>
+        <item>"CpE 480 "</item>
+        <item>"CpE 540"</item>
+        <item>"CpE 542A"</item>
+        <item>"CpE 544A"</item>
+        <item>"CpE 554"</item>
+        <item>"CpE 556"</item>
+        <item>"CpE 560"</item>
+        <item>"CpE 562"</item>
+        <item>"CpE 563"</item>
+        <item>"CpE 564A"</item>
+        <item>"CpE 566"</item>
+        <item>"CpE 568A"</item>
+        <item>"CpE 572"</item>
+        <item>"CpE 574B"</item>
+        <item>"CpE 584A"</item>
+        <item>"CpE 586A"</item>
+        <item>"CpE 596"</item>
+        <item>"CpE 598A"</item>
+    </string-array>
+    <string-array name="semesterarray">
+        <item>"Fall"</item>
+        <item>"Spring"</item>
+        <item>"Summer"</item>
+    </string-array>
+    <string-array name="Daysarray">
+        <item>"Su-Tu"</item>
+        <item>"Mo-We"</item>
+        <item>"All Days"</item>
+    </string-array>
+
+    <string name="title_activity_load__csv">Load_CSV</string>
+    <string name="LoadFile">Load File</string>
+    <string name="Ok">Ok</string>
+    <string name="Cancel">Cancel Buttom</string>
+    <string name="title_activity_open_course">OpenCourse</string>
+    <string name="title_activity_open_course_detials">Open_course_detials</string>
+    <string name="title_activity_load_csv">Load_csv</string>
+    <string name="title_activity_students">Students</string>
+    <string name="title_activity_takeabsence">Takeabsence</string>
+    <string name="title_activity_information_for_today">InformationForToday</string>
+    <string name="title_activity_information_fortoday">InformationFortoday</string>
+    <string name="title_activity_information_of_absent">InformationOfAbsent</string>
+    <string name="title_activity_student_information">StudentInformation</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_mange_course">Mange_course</string>
+    <string name="title_activity_edit_name">Edit_name</string>
+    <string name="title_activity_take_absence">TakeAbsence</string>
+    <string name="title_activity_take_absenceee">TakeAbsenceee</string>
+    <string name="title_activity_edit_number_of_day">EditNumberOfDay</string>
+    <string name="title_activity_select_date">SelectDate</string>
+    <string name="title_activity_sumary">Sumary</string>
+    <string name="title_activity_loadmode">Loadmode</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_start_take_absence">StartTakeAbsence</string>
+    <string name="title_activity_namesofstudent_absece">NamesofstudentAbsece</string>
+    <string name="title_activity_custum4">Custum4</string>
+    <string name="title_activity_load_csvfomerg">LoadCsvfomerg</string>
+    <string name="title_activity_custum22">Custum22</string>
+    <string name="title_activity_custum33">Custum33</string>
+    <string name="title_activity_loadcsv_formarge">LoadcsvFormarge</string>
+    <string name="title_activity_loadmood_formarge">LoadmoodFormarge</string>
+    <string name="title_activity_loadmoodformarge">Loadmoodformarge</string>
+    <string name="title_activity_loginformarge">Loginformarge</string>
+    <string name="appname">Attendance System</string>
+
+</resources>

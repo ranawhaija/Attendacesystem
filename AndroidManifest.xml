@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.final_project"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="16" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/appicon"
+        android:label="@string/appname"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".CourseDetails"
+            android:label="@string/title_activity_course_details" >
+        </activity>
+        <activity
+            android:name=".Load_CSV"
+            android:label="@string/title_activity_load__csv" >
+        </activity>
+        <activity
+            android:name=".OpenCourse"
+            android:label="@string/title_activity_open_course" >
+        </activity>
+        <activity
+            android:name=".Open_course_detials"
+            android:label="@string/title_activity_open_course_detials" >
+        </activity>
+        <activity
+            android:name=".Load_csv"
+            android:label="@string/title_activity_load_csv" >
+        </activity>
+        <activity
+            android:name=".Students"
+            android:label="@string/title_activity_students" >
+        </activity>
+        <activity
+            android:name=".Takeabsence"
+            android:label="@string/title_activity_takeabsence" >
+        </activity>
+        <activity
+            android:name=".InformationForToday"
+            android:label="@string/title_activity_information_for_today"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name=".InformationFortoday"
+            android:label="@string/title_activity_information_fortoday" >
+        </activity>
+        <activity
+            android:name=".InformationOfAbsent"
+            android:label="@string/title_activity_information_of_absent" >
+        </activity>
+        <activity
+            android:name=".StudentInformation"
+            android:label="@string/title_activity_student_information" >
+        </activity>
+        <activity
+            android:name=".SplashScreen"
+            android:label="@string/title_activity_splash_screen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Home"
+            android:label="@string/title_activity_home" >
+        </activity>
+        <activity
+            android:name=".Mange_course"
+            android:label="@string/title_activity_mange_course" >
+        </activity>
+        <activity
+            android:name=".Edit_name"
+            android:label="@string/title_activity_edit_name"
+            android:theme="@android:style/Theme.Holo.Dialog" >
+        </activity>
+        <activity
+            android:name=".TakeAbsence"
+            android:label="@string/title_activity_take_absence" >
+        </activity>
+        <activity
+            android:name=".TakeAbsenceee"
+            android:label="@string/title_activity_take_absenceee" >
+        </activity>
+        <activity
+            android:name=".EditNumberOfDay"
+            android:label="@string/title_activity_edit_number_of_day"
+            android:theme="@android:style/Theme.Holo.Dialog" >
+        </activity>
+        <activity
+            android:name=".SelectDate"
+            android:label="@string/title_activity_select_date" >
+        </activity>
+        <activity
+            android:name=".Sumary"
+            android:label="@string/title_activity_sumary" >
+        </activity>
+        <activity
+            android:name=".Loadmode"
+            android:label="@string/title_activity_loadmode" >
+        </activity>
+        <activity
+            android:name=".Login"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name=".StartTakeAbsence"
+            android:label="@string/title_activity_start_take_absence" >
+        </activity>
+        <activity
+            android:name=".NamesofstudentAbsece"
+            android:label="@string/title_activity_namesofstudent_absece"
+            android:theme="@android:style/Theme.Holo.Dialog" >
+        </activity>
+        <activity
+            android:name=".Custum4"
+            android:label="@string/title_activity_custum4" >
+        </activity>
+        <activity
+            android:name=".LoadCsvfomerg"
+            android:label="@string/title_activity_load_csvfomerg" >
+        </activity>
+        <activity
+            android:name=".Custum22"
+            android:label="@string/title_activity_custum22" >
+        </activity>
+        <activity
+            android:name=".Custum33"
+            android:label="@string/title_activity_custum33" >
+        </activity>
+        <activity
+            android:name=".LoadcsvFormarge"
+            android:label="@string/title_activity_loadcsv_formarge" >
+        </activity>
+        <activity
+            android:name=".LoadmoodFormarge"
+            android:label="@string/title_activity_loadmood_formarge" >
+        </activity>
+        <activity
+            android:name=".Loadmoodformarge"
+            android:label="@string/title_activity_loadmoodformarge" >
+        </activity>
+        <activity
+            android:name=".Loginformarge"
+            android:label="@string/title_activity_loginformarge" >
+        </activity>
+    </application>
+
+</manifest>

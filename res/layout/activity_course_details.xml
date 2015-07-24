@@ -1,0 +1,252 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="top"
+    android:background="@drawable/backgroundg2"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context="com.example.final_project.CourseDetails" >
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_weight="0"
+        android:fillViewport="true" >
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:gravity="bottom" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="63dp"
+                android:layout_height="88dp"
+                android:layout_gravity="center"
+                android:src="@drawable/uni" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Course Name"
+                android:textColor="#FFFFFF"
+                android:textSize="17dp" />
+
+            <AutoCompleteTextView
+                android:id="@+id/courseNameDetail"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ems="12"
+                android:hint="ex. Object Oriented Design"
+                android:maxLines="2"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#C2C2A3" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Course Symbol"
+                android:textColor="#ffffff"
+                android:textSize="17dp" />
+
+            <AutoCompleteTextView
+                android:id="@+id/courseSympol"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="ex. CPE 250"
+                android:textColor="#ffffff"
+                android:textColorHint="#C2C2A3" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Semester"
+                android:textColor="#ffffff"
+                android:textSize="17dp" />
+
+            <Spinner
+                android:id="@+id/semesSpinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Year"
+                android:textColor="#ffffff"
+                android:textSize="17dp" />
+
+            <EditText
+                android:id="@+id/YeartxtID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:focusable="false"
+                android:hint="ex. 2015"
+                android:inputType="numberDecimal"
+                android:textColor="#ffffff"
+                android:textColorHint="#C2C2A3" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Section"
+                android:textColor="#ffffff"
+                android:textSize="17dp" />
+
+            <EditText
+                android:id="@+id/sectiontxtID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="ex. 1"
+                android:inputType="numberDecimal"
+                android:textColor="#ffffff"
+                android:textColorHint="#C2C2A3" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Start Date"
+                android:textColor="#ffffff"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/bStartDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="DD/MM/YYYY"
+                android:textColor="#ffffff"
+                android:textColorHint="#C2C2A3" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="End Date"
+                android:textColor="#ffffff"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/bendDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="DD/MM/YYYY"
+                android:textColor="#ffffff"
+                android:textColorHint="#C2C2A3" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Days"
+                android:textColor="#ffffff"
+                android:textSize="17dp" />
+
+            <Spinner
+                android:id="@+id/daysSpinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </TableRow>
+
+    </TableLayout>
+</ScrollView>
+    <TextView
+        android:id="@+id/errortxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/checkbt"
+        android:layout_marginLeft="24dp"
+        android:text=""
+        android:textSize="17dp" />
+
+    <Button
+        android:id="@+id/finishbt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="top"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="0"
+        android:text="Next"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
